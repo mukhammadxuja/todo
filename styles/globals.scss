@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-violet-600 hover:bg-violet-700 py-3 px-6 text-slate-50 rounded-lg w-auto transition dark:bg-violet-800 dark:hover:bg-violet-900;
+  }
+}

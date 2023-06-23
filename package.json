@@ -15,9 +15,7 @@
     "lint:style": "stylelint **/*.{css,scss,sass}",
     "lint:style:fix": "stylelint **/*.{css,scss,sass} --fix",
     "release": "standard-version",
-    "release:first": "yarn release --first-release",
-    "prepare": "husky install",
-    "commit": "git-cz"
+    "release:first": "yarn release --first-release"
   },
   "config": {
     "commitizen": {
@@ -33,6 +31,7 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@commitlint/cz-commitlint": "^17.5.0",
+    "@headlessui/react": "^1.7.15",
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
     "@types/react-dom": "18.2.6",
